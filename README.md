@@ -10,6 +10,8 @@
 - Ground control station laptop connects to mission controller through IP network. Either ssh or vnc will work.
 - `run_gstreamer.sh` and `run_python.sh` are two command line programs to run separately.
 - `px4_gps_timestamp.py` will wait for PX4 heart beat and image data from gstreamer.
+## Scout sample image
+![sample image](https://github.com/Cinderpe1t/ISEF_UAV_scout_mission/blob/main/gimbal0_1700.jpg)
 ## mavlink.log sample
 ```
 2023-12-24 13:58:16.217227	Initiate mavlink
