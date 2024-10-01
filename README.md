@@ -1,11 +1,13 @@
 # ISEF 2024 ETSD037 Scout UAV Codes
-## List of codes
+## Scout UAV codes
 - `crc_generate.py`: Generate CRC codes for gimbal camera UDP communication
 - `gimbal_control_udp.py`: Set gimbal camera mode and orientation for ocean data collection
 - `mavlink.log`: output of `px4_gps_timestamp.py` from a scout mission
 - `px4_gps_timestamp.py`: Establish MAVLink with PX4, request telemtry data, collect messages, add GPS coordinates and time stamp corresponding to images at log file
 - `run_gstreamer.sh`: Set directory for image data, set gstreamer, collect images from two cameras and save to folder, merge two images and send to ground control station
 - `run_python.sh`: Run `gimbal_control_udp.py` and `px4_gps_timestamp.py`
+## Scout ground control codes
+- `px4_start_gstreamer_sink.sh`: gstreamer sink for video feed display at ground control station
 ## Operation
 - Ground control station laptop connects to mission controller through IP network. Either ssh or vnc will work.
 - `run_gstreamer.sh` and `run_python.sh` are two command line programs to run separately.
