@@ -1,4 +1,4 @@
-# ISEF 2024 ETSD037 Scout UAV Codes
+# ISEF 2024 ETSD037 Scout UAV
 ## Scout UAV codes
 - `crc_generate.py`: Generate CRC codes for gimbal camera UDP communication
 - `gimbal_control_udp.py`: Set gimbal camera mode and orientation for ocean data collection
