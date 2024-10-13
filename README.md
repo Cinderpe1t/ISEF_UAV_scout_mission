@@ -14,7 +14,12 @@ Codes for scout mission at scout UAV and ground control station.
 - `run_gstreamer.sh` and `run_python.sh` are two command line programs to run separately.
 - `px4_gps_timestamp.py` will wait for PX4 heart beat and image data from gstreamer.
 ## Scout sample image
-![sample image](https://github.com/Cinderpe1t/ISEF_UAV_scout_mission/blob/main/gimbal0_1700.jpg)
+- Ground control station set up at beach
+![scout UAV and ground control station](https://github.com/Cinderpe1t/ISEF_UAV_scout_mission/blob/main/Scout%20UAV%20ground%20control%20station.jpeg)
+- A sample image from scout mission 09 with the King tide on 12/25/2023
+![scout mission 09](https://github.com/Cinderpe1t/ISEF_UAV_scout_mission/blob/main/scout%20mission%2009%20Dec%2025%202024%20gimbal0_1700.jpg)
+- A sample image from scout mission 06 on 11/22/2023
+![scout mission 06](https://github.com/Cinderpe1t/ISEF_UAV_scout_mission/blob/main/scout%20mission%2006%20Nov%2022%202023%20gimbal0_1750.jpg)
 ## mavlink.log sample
 ```
 2023-12-24 13:58:16.217227	Initiate mavlink
